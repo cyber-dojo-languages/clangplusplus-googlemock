@@ -18,15 +18,12 @@ unzip gmock-${GMOCK_VERSION}.zip
 
 cd /usr/src/gmock-${GMOCK_VERSION}
 cmake DCMAKE_CXX_FLAGS='-Wno-unused-local-typedefs' .
-
-cd /usr/src/gmock-${GMOCK_VERSION}
 make
-
-cd /usr/src/gmock-${GMOCK_VERSION}
 mv libg* /usr/lib
 cp -rf include/gmock /usr/include
 
 cd /usr/src/gmock-${GMOCK_VERSION}/gtest
-mv libg* /usr/lib && cp -rf include/gtest /usr/include
+mv libg* /usr/lib
+cp -rf include/gtest /usr/include
 
 apt-get remove --yes wget cmake unzip
