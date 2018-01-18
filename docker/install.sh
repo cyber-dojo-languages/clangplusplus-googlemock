@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-readonly CLANG_VERSION=4.0
+readonly CLANG_VERSION=5.0
 readonly GMOCK_VERSION=1.7.0
 
 export CXX=clang++-${CLANG_VERSION}
