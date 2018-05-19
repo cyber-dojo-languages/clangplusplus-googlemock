@@ -3,11 +3,10 @@ set -e
 
 readonly GMOCK_VERSION=1.7.0
 
-cd /usr/src
-
 apt-get update
-apt-get install --yes wget cmake unzip
+apt-get install --yes cmake unzip
 
+cd /usr/src
 unzip gmock-${GMOCK_VERSION}.zip
 
 cd /usr/src/gmock-${GMOCK_VERSION}
@@ -20,5 +19,4 @@ cd /usr/src/gmock-${GMOCK_VERSION}/gtest
 mv libg* /usr/lib
 cp -rf include/gtest /usr/include
 
-apt-get remove --yes wget cmake unzip
-
+apt-get remove --yes cmake unzip
