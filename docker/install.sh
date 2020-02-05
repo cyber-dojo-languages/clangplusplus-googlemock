@@ -14,9 +14,3 @@ apt-get remove --yes cmake unzip
 mv lib/libg* /usr/lib
 cp -rf googlemock/include/gmock /usr/include
 cp -rf googletest/include/gtest /usr/include
-
-#mv googlemock/libg* /usr/lib
-#mv googlemock/gtest/libg* /usr/lib
-#cp -rf googlemock/include/gmock /usr/include
-#cp -rf googletest/include/gtest /usr/include
-#apt-get remove --yes cmake unzip
