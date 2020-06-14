@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/clangplusplus
+FROM cyberdojofoundation/clangplusplus:ee058a5
 LABEL maintainer=byran@adgico.co.uk
 
 COPY googletest-release-1.10.0.zip /usr/src
