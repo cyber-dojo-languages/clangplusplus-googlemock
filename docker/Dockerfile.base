@@ -1,7 +1,7 @@
-FROM cyberdojofoundation/clangplusplus:ee058a5
+FROM  ghcr.io/cyber-dojo-languages/clangplusplus:148989c
 LABEL maintainer=byran@adgico.co.uk
 
-COPY googletest-release-1.10.0.zip /usr/src
+COPY googletest-release-1.17.0.zip /usr/src
 COPY install.sh .
 RUN ./install.sh && rm ./install.sh
 COPY red_amber_green.rb /usr/local/bin
