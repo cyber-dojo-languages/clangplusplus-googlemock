@@ -14,3 +14,7 @@ apt-get remove --yes cmake unzip
 mv lib/libg* /usr/lib
 cp -rf googlemock/include/gmock /usr/include
 cp -rf googletest/include/gtest /usr/include
+
+#to speed up linking : -fuse-ld=mold
+apt install mold
+
