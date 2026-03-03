@@ -1,4 +1,4 @@
-[![Github Action (master)](https://github.com/cyber-dojo-languages/clangplusplus-googlemock/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/clangplusplus-googlemock/actions)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
 ## display_name="C++ (clang++ 18.1.3), GoogleMock 1.17.0"
 ## image_name="ghcr.io/cyber-dojo-languages/clangpp_googlemock"
